@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
     fetch("../foods.json").then(function (response) {
       return response.json();
     }).then(function (data) {
-
       // get a random food from the list
       let randomCategory = Math.floor(Math.random() * data.length);
       let category = data[randomCategory];

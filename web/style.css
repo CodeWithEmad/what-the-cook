@@ -1,63 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
 
-* {  
- box-sizing: border-box;  
-}  
-
-body {  
- background-color: #2a2a72;  
- color: #fff;  
- font-family: 'Lalezar', cursive; 
- display: flex;  
- flex-direction: column;  
- align-items: center;  
- justify-content: center;  
- height: 100vh;  
- overflow: hidden;  
- margin: 0;  
-}  
-
-.buttons a{
-  text-align: center;
-  text-decoration: none;
-  display: inline;  
-  background-color: #4c2885;  
-  border: none;  
-  border-radius: 10px;  
-  color: #fff;  
-  padding: 1rem;
-  padding-left: 4rem;
-  padding-right: 4rem;  
-  margin: 1rem;  
-  font-family: inherit;  
-  font-size: 1rem;  
-  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),  
-    0 15px 40px rgba(0, 0, 0, 0.1);  
+* {
+    box-sizing: border-box;
 }
 
-.card {  
-  text-align: center;
-  max-width: 800px;  
-  background-color: #4c2885;  
-  border-radius: 20px;  
-  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),  
-   0 15px 40px rgba(0, 0, 0, 0.1);  
-  padding: 2rem;
-  padding-left: 4rem;
-  padding-right: 4rem;  
-  margin: 4rem auto;;  
- }  
- .card-title {  
-   display: block;
-  font-size: 1.5rem;  
-  font-weight: bold;  
-  margin: 0;  
- }
- .card-text {  
+body {
+    background-color: #2a2a72;
+    color: #fff;
+    font-family: 'Lalezar', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.buttons a {
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    background-color: #4c2885;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    padding: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin: 1rem;
+    font-family: inherit;
+    font-size: 1rem;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    text-align: center;
+    max-width: 800px;
+    background-color: #4c2885;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin: 4rem auto;;
+}
+
+.card-title {
     display: block;
-    font-size: 1.3rem;  
-    margin: 0;  
- }
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card-text {
+    display: block;
+    font-size: 1.3rem;
+    margin: 0;
+}
 
 .text-center {
     text-align: center;
@@ -71,31 +73,32 @@ body {
     margin-bottom: 5rem;
 }
 
-@media (max-width: 500px) {  
+@media (max-width: 500px) {
 
- .buttons a{
-   display: block;
- }
-}  
+    .buttons a {
+        display: block;
+    }
+}
+
 .forkme {
-  transform: rotate(45deg);
-  background-color: #FFF;
-  overflow: hidden;
-  position: fixed;
-  z-index: 300;
-  width: 240px;
-  right: -60px;
-  top: 46px;
-  border-style: solid;
-  border-color: #7B7979;
+    transform: rotate(45deg);
+    background-color: #FFF;
+    overflow: hidden;
+    position: fixed;
+    z-index: 300;
+    width: 240px;
+    right: -60px;
+    top: 46px;
+    border-style: solid;
+    border-color: #7B7979;
 }
 
 .forkme a {
-  color: #404040;
-  display: block;
-  font: 13px Helvetica Neue,Arial,sans-serif;
-  margin: 0.05em 0px 0.075em;
-  padding: 0.6em;
-  text-align: center;
-  text-decoration: none;
+    color: #404040;
+    display: block;
+    font: 13px Helvetica Neue, Arial, sans-serif;
+    margin: 0.05em 0px 0.075em;
+    padding: 0.6em;
+    text-align: center;
+    text-decoration: none;
 }

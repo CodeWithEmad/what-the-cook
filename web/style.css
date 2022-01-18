@@ -43,8 +43,6 @@ body {
     box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
     0 15px 40px rgba(0, 0, 0, 0.1);
     padding: 2rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
     margin: 4rem auto;;
 }
 
@@ -73,12 +71,6 @@ body {
     margin-bottom: 5rem;
 }
 
-@media (max-width: 500px) {
-
-    .buttons a {
-        display: block;
-    }
-}
 
 .forkme {
     transform: rotate(45deg);
@@ -101,4 +93,30 @@ body {
     padding: 0.6em;
     text-align: center;
     text-decoration: none;
+}
+
+.main-list {
+    overflow: auto;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+.main-list ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.main-list ul li {
+    margin: 0.5rem;
+}
+
+@media (max-width: 500px) {
+
+    .buttons a {
+        display: block;
+    }
+
+    .main-list {
+        width: 90%;
+    }
 }

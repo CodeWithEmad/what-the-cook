@@ -35,6 +35,10 @@ body {
     0 15px 40px rgba(0, 0, 0, 0.1);
 }
 
+.buttons {
+    margin-bottom: 3rem;
+}
+
 .card {
     text-align: center;
     max-width: 800px;
